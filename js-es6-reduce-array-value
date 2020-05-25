@@ -1,0 +1,13 @@
+const allNumbs = [1,2,3,4,5];
+
+let multiply = allNumbs.reduce((total,value) => total * value);
+console.log(multiply);
+// 120
+
+let plus = allNumbs.reduce((total,value) => total + value);
+console.log(plus);
+// 15
+
+let minus = allNumbs.reduce((total,value) => total - value);
+console.log(minus);
+// -13
